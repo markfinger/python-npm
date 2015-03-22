@@ -5,9 +5,20 @@ python-npm
 
 Python bindings and utils for [npm](http://npmjs.com).
 
+```python
+from npm.bindings import npm_install
+
+# Install the dependencies in a directory containing a package.json
+npm_install('/path/to/some/directory/')
+```
+
+Installation
+------------
+
+`pip install npm`
 
 Bindings
-========
+--------
 
 ### npm.bindings.npm_install()
 
