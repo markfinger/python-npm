@@ -3,4 +3,4 @@ Changelog
 
 ### 0.1.0 (22/03/2015)
 
-- Excised npm bindings from the django-node project.
+- Extracted the npm bindings from django-node and removed the django dependency.
