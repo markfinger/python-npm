@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 import npm
 
 setup(
-    name='python-npm',
+    name='npm',
     version=npm.VERSION,
     packages=find_packages(exclude=('tests',)),
     description='Python bindings and utils for npm.',
