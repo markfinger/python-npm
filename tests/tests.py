@@ -1,10 +1,10 @@
 import os
 import shutil
 import unittest
+from optional_django import six
 from npm.bindings import (
     npm_installed, npm_version, npm_version_raw, npm_install, npm_run, ensure_npm_installed, ensure_npm_version_gte
 )
-from npm.utils import six
 from npm.exceptions import OutdatedDependency, MalformedVersionInput
 
 TEST_DIR = os.path.abspath(os.path.dirname(__file__))

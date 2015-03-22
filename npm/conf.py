@@ -1,4 +1,4 @@
-from .utils.conf import Conf
+from optional_django.conf import Conf
 
 settings = Conf('NPM', {
     'PATH': 'npm',
