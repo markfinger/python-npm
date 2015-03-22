@@ -15,7 +15,9 @@ npm_install('/path/to/some/directory/')
 Installation
 ------------
 
-`pip install npm`
+```
+pip install npm
+```
 
 Bindings
 --------
